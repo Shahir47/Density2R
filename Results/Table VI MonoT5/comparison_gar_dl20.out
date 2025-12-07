@@ -1,0 +1,5 @@
+          name   nDCG@10  R(rel=2)@1000
+0  bm25 >> GAR  0.701843       0.873297
+
+Run Time: 237.0762 seconds => 3.9513 minutes
+Done

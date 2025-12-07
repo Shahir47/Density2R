@@ -1,0 +1,35 @@
+Dataset: irds:beir/nfcorpus
+Test Dataset: irds:beir/nfcorpus/test
+TOP_K=100
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 2983.785714285714
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 1863.1983 seconds => 31.0533 minutes
+Avg Run Time for all queries: 6.0493 seconds => 0.1008 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.353065
+
+Run Time: 1863.4017 seconds => 31.0567 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 2983.785714285714
+Avg Response Tokens: 127.95779220779221
+Total Run Time for all queries: 1913.9861 seconds => 31.8998 minutes
+Avg Run Time for all queries: 6.2142 seconds => 0.1036 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.350594
+
+Run Time: 1914.1508 seconds => 31.9025 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+

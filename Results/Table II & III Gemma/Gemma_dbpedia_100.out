@@ -1,0 +1,23 @@
+**** we didn't focus on efficient implementation of the Gemma model and used it just to get the nDCG@10 and hence the runtime is more than the GPT model. This implementation leverages (relatively slower) hugging face API ****
+CUDA_VISIBLE_DEVICES=0
+Dataset: irds:beir/dbpedia-entity
+Test Dataset: irds:beir/dbpedia-entity/test
+TOP_K=100
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Loading Gemma model and processor...
+Gemma model and processor loaded successfully.
+Avg Prompt Tokens: 911.4486215538847
+Avg Response Tokens: 99.1453634085213
+Avg Relevant Documents: 27.666666666666668
+Total Run Time for all queries: 3565.3050 seconds => 59.4217 minutes
+Avg Run Time for all queries: 8.9356 seconds => 0.1489 minutes
+                name   nDCG@10  R(rel=2)@1000
+0  bm25 >> Density2R  0.395327       0.432722
+
+Run Time: 3578.6314 seconds => 59.6439 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,48 @@
+Dataset: irds:beir/nfcorpus
+Test Dataset: irds:beir/nfcorpus/test
+TOP_K=100
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Rate Limit Faced. Trying after 1 second
+Avg Prompt Tokens: 2983.785714285714
+Avg Response Tokens: 127.99675324675324
+Total Run Time for all queries: 1862.5181 seconds => 31.0420 minutes
+Avg Run Time for all queries: 6.0471 seconds => 0.1008 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.353332
+
+Run Time: 1862.7173 seconds => 31.0453 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 2983.785714285714
+Avg Response Tokens: 127.99025974025975
+Total Run Time for all queries: 1911.6952 seconds => 31.8616 minutes
+Avg Run Time for all queries: 6.2068 seconds => 0.1034 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.354732
+
+Run Time: 1911.8633 seconds => 31.8644 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Rate Limit Faced. Trying after 1 second
+Avg Prompt Tokens: 2983.785714285714
+Avg Response Tokens: 127.96753246753246
+Total Run Time for all queries: 1918.2130 seconds => 31.9702 minutes
+Avg Run Time for all queries: 6.2280 seconds => 0.1038 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.355441
+
+Run Time: 1918.3754 seconds => 31.9729 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,18 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/dev/small
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 959.6922305045872
+Avg Response Tokens: 121.31206995412845
+Total Run Time for all queries: 29741.5234 seconds => 495.6921 minutes
+Avg Run Time for all queries: 4.2634 seconds => 0.0711 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.368166
+
+Run Time: 29861.7904 seconds => 497.6965 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,10 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Total token top-100 BM25: 297723
+Avg token per query for top-100 BM25: 6923.790697674419
+

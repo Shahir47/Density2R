@@ -1,0 +1,82 @@
+**** From the average prompt tokens it is apparent that the document length (in terms of words) of touche is much more than the other datasets and hence the latency ****
+Dataset: irds:beir/webis-touche2020/v2
+Test Dataset: irds:beir/webis-touche2020/v2
+TOP_K=100
+Run 1:
+------
+[2025-09-26 20:44:00.190] [[32minfo[m] Dropping 0 terms
+[2025-09-26 20:44:00.191] [[32minfo[m] Reading sizes...
+[2025-09-26 20:44:00.194] [[32minfo[m] Storing max weight for each list and for each block...
+[2025-09-26 20:44:01.079] [[32minfo[m] number of elements / number of blocks: 44.8164
+[2025-09-26 20:44:01.095] [[32minfo[m] Processing 382545 documents (streaming)
+Index/pisa_touche_v2/bm25.k1-0.9.b-0.4.q0.bmw.64.block_simdbp
+[2025-09-26 20:44:01.598] [[32minfo[m] Index compressed in 0.502812 seconds
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 716.8082 seconds => 11.9468 minutes
+Avg Run Time for all queries: 14.6287 seconds => 0.2438 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.307338
+
+Run Time: 717.9535 seconds => 11.9659 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 763.0072 seconds => 12.7168 minutes
+Avg Run Time for all queries: 15.5716 seconds => 0.2595 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.315133
+
+Run Time: 763.1917 seconds => 12.7199 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 763.6970 seconds => 12.7283 minutes
+Avg Run Time for all queries: 15.5857 seconds => 0.2598 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.315845
+
+Run Time: 763.8641 seconds => 12.7311 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 767.5278 seconds => 12.7921 minutes
+Avg Run Time for all queries: 15.6638 seconds => 0.2611 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.308083
+
+Run Time: 767.7003 seconds => 12.7950 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 761.0801 seconds => 12.6847 minutes
+Avg Run Time for all queries: 15.5322 seconds => 0.2589 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.299886
+
+Run Time: 761.2516 seconds => 12.6875 minutes
+----------------------------------------------------------------
+
+Done

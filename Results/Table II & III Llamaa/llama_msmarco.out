@@ -1,0 +1,22 @@
+**** we didn't focus on efficient implementation of the LLama model and used it just to get the nDCG@10 and hence the runtime is more than the GPT model. This implementation leverages (relatively slower) hugging face API ****
+CUDA_VISIBLE_DEVICES=0
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/dev/small
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+** LLama loaded **
+Avg Prompt Tokens: 0.0
+Avg Response Tokens: 0.0
+Avg Relevant Documents: 132.81321674311926
+Total Run Time for all queries: 38424.5064 seconds => 640.4084 minutes
+Avg Run Time for all queries: 5.5081 seconds => 0.0918 minutes
+                name  nDCG@10  R(rel=2)@1000
+0  bm25 >> Density2R  0.36937            0.0
+
+Run Time: 38518.9827 seconds => 641.9830 minutes
+----------------------------------------------------------------
+
+Done

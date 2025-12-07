@@ -1,0 +1,81 @@
+Dataset: irds:beir/scifact
+Test Dataset: irds:beir/scifact/test
+TOP_K=100
+Run 1:
+------
+[2025-09-26 21:47:12.324] [[32minfo[m] Dropping 0 terms
+[2025-09-26 21:47:12.325] [[32minfo[m] Reading sizes...
+[2025-09-26 21:47:12.325] [[32minfo[m] Storing max weight for each list and for each block...
+[2025-09-26 21:47:12.346] [[32minfo[m] number of elements / number of blocks: 17.9696
+[2025-09-26 21:47:12.348] [[32minfo[m] Processing 5183 documents (streaming)
+Index/pisa_scifact/bm25.k1-0.9.b-0.4.q0.bmw.64.block_simdbp
+[2025-09-26 21:47:12.371] [[32minfo[m] Index compressed in 0.02355 seconds
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3474.46
+Avg Response Tokens: 127.72
+Total Run Time for all queries: 1139.3220 seconds => 18.9887 minutes
+Avg Run Time for all queries: 3.7977 seconds => 0.0633 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.724448
+
+Run Time: 1139.5317 seconds => 18.9922 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3474.46
+Avg Response Tokens: 127.74333333333334
+Total Run Time for all queries: 1145.4753 seconds => 19.0913 minutes
+Avg Run Time for all queries: 3.8183 seconds => 0.0636 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.733635
+
+Run Time: 1145.6561 seconds => 19.0943 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3474.46
+Avg Response Tokens: 127.78
+Total Run Time for all queries: 1120.5080 seconds => 18.6751 minutes
+Avg Run Time for all queries: 3.7350 seconds => 0.0623 minutes
+                name  nDCG@10
+0  bm25 >> Density2R  0.72787
+
+Run Time: 1120.6913 seconds => 18.6782 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3474.46
+Avg Response Tokens: 127.73333333333333
+Total Run Time for all queries: 1096.8055 seconds => 18.2801 minutes
+Avg Run Time for all queries: 3.6560 seconds => 0.0609 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.724826
+
+Run Time: 1096.9832 seconds => 18.2831 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3474.46
+Avg Response Tokens: 127.72333333333333
+Total Run Time for all queries: 1064.3879 seconds => 17.7398 minutes
+Avg Run Time for all queries: 3.5480 seconds => 0.0591 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.721062
+
+Run Time: 1064.5799 seconds => 17.7430 minutes
+----------------------------------------------------------------
+
+Done

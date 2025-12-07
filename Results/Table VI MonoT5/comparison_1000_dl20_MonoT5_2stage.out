@@ -1,0 +1,16 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2020/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Total Run Time for all queries: 232.0222 seconds => 3.8670 minutes
+Avg Run Time for all queries: 4.2967 seconds => 0.0716 minutes
+                    name   nDCG@10  R(rel=2)@1000
+0  bm25 >> MonoT5_2Stage  0.713034       0.804832
+
+Run Time: 233.3093 seconds => 3.8885 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,5 @@
+                   name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> GAR_MonoBert  0.732477   0.738309       0.831223
+
+Run Time: 322.6445 seconds => 5.3774 minutes
+Done

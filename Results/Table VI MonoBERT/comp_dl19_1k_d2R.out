@@ -1,0 +1,80 @@
+CUDA_VISIBLE_DEVICES=0
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 953.2093023255813
+Avg Response Tokens: 124.88372093023256
+Avg Relevant Documents: 130.8139534883721
+Total Run Time for all queries: 275.5570 seconds => 4.5926 minutes
+Avg Run Time for all queries: 6.4083 seconds => 0.1068 minutes
+                              name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> Density2R_RitM_MonoBERT  0.737765   0.692828       0.755495
+
+Run Time: 276.5831 seconds => 4.6097 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 953.2093023255813
+Avg Response Tokens: 126.11627906976744
+Avg Relevant Documents: 138.69767441860466
+Total Run Time for all queries: 292.1122 seconds => 4.8685 minutes
+Avg Run Time for all queries: 6.7933 seconds => 0.1132 minutes
+                              name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> Density2R_RitM_MonoBERT  0.737961   0.694103       0.755495
+
+Run Time: 293.2238 seconds => 4.8871 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 953.2093023255813
+Avg Response Tokens: 125.37209302325581
+Avg Relevant Documents: 127.72093023255815
+Total Run Time for all queries: 303.9048 seconds => 5.0651 minutes
+Avg Run Time for all queries: 7.0676 seconds => 0.1178 minutes
+                              name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> Density2R_RitM_MonoBERT  0.736212   0.694431       0.755495
+
+Run Time: 304.9490 seconds => 5.0825 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 953.2093023255813
+Avg Response Tokens: 125.62790697674419
+Avg Relevant Documents: 144.69767441860466
+Total Run Time for all queries: 307.9998 seconds => 5.1333 minutes
+Avg Run Time for all queries: 7.1628 seconds => 0.1194 minutes
+                              name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> Density2R_RitM_MonoBERT  0.739878   0.696153       0.755495
+
+Run Time: 308.9929 seconds => 5.1499 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 953.2093023255813
+Avg Response Tokens: 124.90697674418605
+Avg Relevant Documents: 137.74418604651163
+Total Run Time for all queries: 319.1611 seconds => 5.3194 minutes
+Avg Run Time for all queries: 7.4224 seconds => 0.1237 minutes
+                              name  nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> Density2R_RitM_MonoBERT  0.73748   0.697661       0.755495
+
+Run Time: 320.1819 seconds => 5.3364 minutes
+----------------------------------------------------------------
+
+Done
