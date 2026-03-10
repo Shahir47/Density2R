@@ -1,0 +1,46 @@
+Dataset: irds:beir/fiqa
+Test Dataset: irds:beir/fiqa/test
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3499.884259259259
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 4736.5617 seconds => 78.9427 minutes
+Avg Run Time for all queries: 7.3095 seconds => 0.1218 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.415923
+
+Run Time: 4739.3209 seconds => 78.9887 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3499.884259259259
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 4753.5544 seconds => 79.2259 minutes
+Avg Run Time for all queries: 7.3357 seconds => 0.1223 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.412113
+
+Run Time: 4756.5110 seconds => 79.2752 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3499.884259259259
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 4696.7932 seconds => 78.2799 minutes
+Avg Run Time for all queries: 7.2481 seconds => 0.1208 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.411525
+
+Run Time: 4699.7081 seconds => 78.3285 minutes
+----------------------------------------------------------------
+
+Done

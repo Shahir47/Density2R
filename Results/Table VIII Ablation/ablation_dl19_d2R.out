@@ -1,0 +1,16 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Total Run Time for all queries: 60.0797 seconds => 1.0013 minutes
+Avg Run Time for all queries: 1.3972 seconds => 0.0233 minutes
+                name    nDCG@1   nDCG@5   nDCG@10   nDCG@15   nDCG@50  nDCG@1000        AP      P@10      P@50     P@100    P@1000     RR@10   RR@1000    R@1000  Success@5  Success@10
+0  bm25 >> Density2R  0.817829  0.77487  0.729198  0.710632  0.658625   0.694722  0.500002  0.813953  0.534884  0.386744  0.065744  0.976744  0.976744  0.732348   0.976744    0.976744
+
+Run Time: 61.2296 seconds => 1.0205 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,14 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2020/judged
+TOP_K=1000
+Run 1:
+------
+Total Positive Docs = 50028
+Avg Positive Docs = 926.4444444444445
+                  name    nDCG@1    nDCG@5   nDCG@10   nDCG@15   nDCG@50  nDCG@1000        AP      P@10      P@50     P@100    P@1000     RR@10   RR@1000    R@1000  Success@5  Success@10
+0  bm25 >> Cosine_Mean  0.808642  0.786117  0.752535  0.731673  0.670157   0.717418  0.513533  0.803704  0.441111  0.298148  0.044074  0.972222  0.972377  0.749992   0.981481    0.981481
+
+Run Time: 73.5488 seconds => 1.2258 minutes
+----------------------------------------------------------------
+
+Done

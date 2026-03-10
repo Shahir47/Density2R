@@ -1,0 +1,18 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Total Positive Docs = 6062
+Avg Positive Docs = 140.97674418604652
+Total Run Time: 57.6588s => 0.9610m
+Avg per query: 1.3409s
+                   name    nDCG@1    nDCG@5   nDCG@10  nDCG@15   nDCG@50  nDCG@1000        AP      P@10      P@50     P@100    P@1000     RR@10   RR@1000    R@1000  Success@5  Success@10
+0  bm25 >> KDE_Biweight  0.825581  0.762653  0.722891  0.70933  0.654451    0.69301  0.495265  0.811628  0.533023  0.384186  0.065744  0.976744  0.976744  0.732348   0.976744    0.976744
+
+Run Time: 58.6381 seconds => 0.9773 minutes
+----------------------------------------------------------------
+
+Done

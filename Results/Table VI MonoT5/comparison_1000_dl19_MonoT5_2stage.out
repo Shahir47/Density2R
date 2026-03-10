@@ -1,0 +1,60 @@
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+query: do goldfish grow
+query: what is wifi vs bluetooth
+query: why did the us volunterilay enter ww1
+query: definition declaratory judgment
+query: right pelvic pain causes
+query: what are the social determinants of health
+query: does legionella pneumophila cause pneumonia
+query: how is the weather in jamaica
+query: types of dysarthria from cerebral palsy
+query: who is robert gray
+query: what types of food can you cook sous vide
+query: how long is life cycle of flea
+query: what can contour plowing reduce
+query: when was the salvation army founded
+query: what is a active margin
+query: difference between rn and bsn
+query: medicare s definition of mechanical ventilation
+query: how to find the midsegment of a trapezoid
+query: what is an aml surveillance analyst
+query: what is the daily life of thai people
+query: definition of a sigmet
+query: cost of interior concrete flooring
+query: what is the most popular food in switzerland
+query: how are some sharks warm blooded
+query: what is durable medical equipment consist of
+query: exons definition biology
+query: define visceral
+query: tracheids are part of
+query: rsa definition key
+query: who formed the commonwealth of independent states
+query: causes of left ventricular hypertrophy
+query: lps laws definition
+query: what are the three percenters
+query: causes of military suicide
+query: what is theraderm used for
+query: what is famvir prescribed for
+query: anthropological definition of environment
+query: axon terminals or synaptic knob definition
+query: is cdg airport in main paris
+query: example of monotonic function
+query: what is physical description of spruce
+query: hydrogen is a liquid below what temperature
+query: difference between a mcdouble and a double cheeseburger
+
+Total Run Time for all queries: 188.8968 seconds => 3.1483 minutes
+Avg Run Time for all queries: 4.3929 seconds => 0.0732 minutes
+                    name   nDCG@10  R(rel=2)@1000
+0  bm25 >> MonoT5_2Stage  0.725551       0.755495
+
+Run Time: 189.9544 seconds => 3.1659 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,74 @@
+Dataset: irds:beir/trec-covid
+Test Dataset: irds:beir/trec-covid
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3410.76
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 390.4434 seconds => 6.5074 minutes
+Avg Run Time for all queries: 7.8089 seconds => 0.1301 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.752755
+
+Run Time: 391.6380 seconds => 6.5273 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3410.76
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 308.6950 seconds => 5.1449 minutes
+Avg Run Time for all queries: 6.1739 seconds => 0.1029 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.737256
+
+Run Time: 309.5198 seconds => 5.1587 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3410.76
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 346.4434 seconds => 5.7741 minutes
+Avg Run Time for all queries: 6.9289 seconds => 0.1155 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.747781
+
+Run Time: 347.2384 seconds => 5.7873 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3410.76
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 351.8426 seconds => 5.8640 minutes
+Avg Run Time for all queries: 7.0369 seconds => 0.1173 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.760174
+
+Run Time: 353.2097 seconds => 5.8868 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 3410.76
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 351.4575 seconds => 5.8576 minutes
+Avg Run Time for all queries: 7.0291 seconds => 0.1172 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.746769
+
+Run Time: 352.5083 seconds => 5.8751 minutes
+----------------------------------------------------------------
+
+Done

@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=0
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2019/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+           name    nDCG@1   nDCG@10  R(rel=2)@1000
+0  bm25 Tail 10  0.023256  0.025603       0.023625
+
+Run Time: 1.0068 seconds => 0.0168 minutes
+----------------------------------------------------------------
+
+

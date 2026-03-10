@@ -1,0 +1,57 @@
+Java started and loaded: pyterrier.java, pyterrier.terrier.java [version=5.11 (build: craig.macdonald 2025-01-13 21:29), helper_version=0.0.8]
+/home/mzaoad/re-ranker_t1/Density2R/d2R_evaluation.py:5: DeprecationWarning: Call to deprecated method pt.init(). Deprecated since version 0.11.0.
+java is now started automatically with default settings. To force initialisation early, run:
+pt.java.init() # optional, forces java initialisation
+  pt.init()
+[nltk_data] Downloading package punkt to /home/mzaoad/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2020/judged
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+
+pt.Experiment:   0%|          | 0/1 [00:00<?, ?system/s]
+
+Progress...:   0%|          | 0/54 [00:00<?, ?it/s][A
+
+Progress...:   6%|▌         | 3/54 [00:00<00:02, 23.28it/s][A
+
+Progress...:  11%|█         | 6/54 [00:00<00:01, 25.31it/s][A
+
+Progress...:  17%|█▋        | 9/54 [00:00<00:01, 23.62it/s][A
+
+Progress...:  22%|██▏       | 12/54 [00:00<00:01, 24.31it/s][A
+
+Progress...:  28%|██▊       | 15/54 [00:00<00:01, 24.50it/s][A
+
+Progress...:  33%|███▎      | 18/54 [00:00<00:01, 25.23it/s][A
+
+Progress...:  39%|███▉      | 21/54 [00:00<00:01, 24.67it/s][A
+
+Progress...:  44%|████▍     | 24/54 [00:00<00:01, 24.84it/s][A
+
+Progress...:  50%|█████     | 27/54 [00:01<00:01, 24.28it/s][A
+
+Progress...:  56%|█████▌    | 30/54 [00:01<00:01, 23.84it/s][A
+
+Progress...:  61%|██████    | 33/54 [00:01<00:00, 24.19it/s][A
+
+Progress...:  67%|██████▋   | 36/54 [00:01<00:00, 24.19it/s][A
+
+Progress...:  72%|███████▏  | 39/54 [00:01<00:00, 23.63it/s][A
+
+Progress...:  78%|███████▊  | 42/54 [00:01<00:00, 23.42it/s][A
+
+Progress...:  83%|████████▎ | 45/54 [00:01<00:00, 23.71it/s][A
+
+Progress...:  91%|█████████ | 49/54 [00:02<00:00, 25.58it/s][A
+
+Progress...:  96%|█████████▋| 52/54 [00:02<00:00, 25.23it/s][A
+Progress...: 100%|██████████| 54/54 [00:02<00:00, 24.50it/s]
+
+Total token top-100 BM25: 388222
+Avg token per query for top-100 BM25: 7189.2962962962965
+

@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0
+Dataset: irds:msmarco-passage
+Test Dataset: irds:msmarco-passage/trec-dl-2020/judged
+TOP_K=1000
+Run 1:
+------
+Device: cuda
+                       name   nDCG@10  nDCG@1000  R(rel=2)@1000
+0  bm25 >> MonoBertReranker  0.701256   0.703616       0.804832
+
+Run Time: 345.2967 seconds => 5.7549 minutes
+----------------------------------------------------------------
+
+Done

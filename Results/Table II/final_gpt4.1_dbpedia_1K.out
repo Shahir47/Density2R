@@ -1,0 +1,74 @@
+Dataset: irds:beir/dbpedia-entity
+Test Dataset: irds:beir/dbpedia-entity/test
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 883.4110275689223
+Avg Response Tokens: 119.94486215538848
+Total Run Time for all queries: 1327.1692 seconds => 22.1195 minutes
+Avg Run Time for all queries: 3.3262 seconds => 0.0554 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.416926
+
+Run Time: 1346.9831 seconds => 22.4497 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 883.4110275689223
+Avg Response Tokens: 120.0
+Total Run Time for all queries: 1338.2569 seconds => 22.3043 minutes
+Avg Run Time for all queries: 3.3540 seconds => 0.0559 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.417826
+
+Run Time: 1344.9102 seconds => 22.4152 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 883.4110275689223
+Avg Response Tokens: 120.17042606516291
+Total Run Time for all queries: 1322.0418 seconds => 22.0340 minutes
+Avg Run Time for all queries: 3.3134 seconds => 0.0552 minutes
+                name  nDCG@10
+0  bm25 >> Density2R  0.41888
+
+Run Time: 1328.4550 seconds => 22.1409 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 883.4110275689223
+Avg Response Tokens: 119.49122807017544
+Total Run Time for all queries: 1358.3666 seconds => 22.6394 minutes
+Avg Run Time for all queries: 3.4044 seconds => 0.0567 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.420789
+
+Run Time: 1365.1621 seconds => 22.7527 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 883.4110275689223
+Avg Response Tokens: 120.07268170426065
+Total Run Time for all queries: 1368.7350 seconds => 22.8123 minutes
+Avg Run Time for all queries: 3.4304 seconds => 0.0572 minutes
+                name  nDCG@10
+0  bm25 >> Density2R  0.41692
+
+Run Time: 1374.8465 seconds => 22.9141 minutes
+----------------------------------------------------------------
+
+Done

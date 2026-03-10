@@ -1,0 +1,74 @@
+Dataset: irds:beir/webis-touche2020/v2
+Test Dataset: irds:beir/webis-touche2020/v2
+TOP_K=1000
+Run 1:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 717.6102 seconds => 11.9602 minutes
+Avg Run Time for all queries: 14.6451 seconds => 0.2441 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.282974
+
+Run Time: 718.2435 seconds => 11.9707 minutes
+----------------------------------------------------------------
+
+Run 2:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 763.0704 seconds => 12.7178 minutes
+Avg Run Time for all queries: 15.5729 seconds => 0.2595 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.296446
+
+Run Time: 763.6433 seconds => 12.7274 minutes
+----------------------------------------------------------------
+
+Run 3:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 763.4520 seconds => 12.7242 minutes
+Avg Run Time for all queries: 15.5807 seconds => 0.2597 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.291375
+
+Run Time: 764.0695 seconds => 12.7345 minutes
+----------------------------------------------------------------
+
+Run 4:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 765.5442 seconds => 12.7591 minutes
+Avg Run Time for all queries: 15.6234 seconds => 0.2604 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.279603
+
+Run Time: 766.1674 seconds => 12.7695 minutes
+----------------------------------------------------------------
+
+Run 5:
+------
+*** self.DEVICE: cuda ***
+
+Avg Prompt Tokens: 7685.775510204082
+Avg Response Tokens: 128.0
+Total Run Time for all queries: 763.3194 seconds => 12.7220 minutes
+Avg Run Time for all queries: 15.5779 seconds => 0.2596 minutes
+                name   nDCG@10
+0  bm25 >> Density2R  0.276338
+
+Run Time: 763.9175 seconds => 12.7320 minutes
+----------------------------------------------------------------
+
+Done
