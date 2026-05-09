@@ -1,5 +1,6 @@
 # Density2R
-This is the official implementation of [Density2R: Efficient Document Re-ranking via Embedding Density over Parametric Knowledge of Large Language Models](https://ieeexplore.ieee.org/document/11401587). (IEEE BigData 2025)
+Official implementation of [Density2R](https://ieeexplore.ieee.org/document/11401587), an efficient zero-shot document re-ranking method for information retrieval, RAG, and LLM-based reranking, published at IEEE BigData 2025.
+Density2R is a lightweight zero-shot document re-ranking method that uses embedding density over LLM parametric knowledge to reduce token cost and latency for RAG and information retrieval pipelines.
 
 ## ⭐ Citation
 If you find this work helpful in your research, please consider citing our work.
